@@ -148,9 +148,9 @@
             label6.AutoSize = true;
             label6.Location = new Point(454, 124);
             label6.Name = "label6";
-            label6.Size = new Size(38, 15);
+            label6.Size = new Size(70, 15);
             label6.TabIndex = 10;
-            label6.Text = "label6";
+            label6.Text = "Order Detail";
             // 
             // dataGridView1
             // 
