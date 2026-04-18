@@ -1,5 +1,5 @@
-using CoffeShopJamSembilan.Views.Forms;
-using TokoPC.Views;
+
+using TokoPC.Views; 
 
 namespace TokoPC
 {
@@ -24,23 +24,23 @@ namespace TokoPC
         {
             MessageBox.Show("Login Berhasil");
             AdminForm adminForm = new AdminForm();
-            adminForm.ShowDialog();
             this.Hide();
+            adminForm.ShowDialog();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             MessageBox.Show("Login Berhasil sebagai User");
             PublicForm publicForm = new PublicForm();
-            publicForm.ShowDialog();
             this.Hide();
+            publicForm.ShowDialog();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             SignUpForm signUpForm = new SignUpForm();
-            signUpForm.Show();
             this.Hide();
+            signUpForm.Show();
         }
     }
 }

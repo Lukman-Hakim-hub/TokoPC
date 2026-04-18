@@ -224,7 +224,7 @@ namespace CoffeShopJamSembilan.Views.Panels
 
         private void MemberPanel_Load(object sender, EventArgs e)
         {
-            throw new NotImplementedException();
+           
         }
 
         private void textBox5_TextChanged(object sender, EventArgs e)
